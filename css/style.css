@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	padding: 7% 14%;
+}
+
+.container{
+
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+}
+
+h1{
+	margin: 2%;
+	text-transform: uppercase;
+}
+
+p{
+	margin: 3%;
+	line-height: 1.5;
+}
+
+.image1 , .image3 , .image2{
+	margin: 3%;
+}
+
+
+.sedans , .suvs , .luxury{
+	width: 33.5%;
+	height: 413px;
+	padding: 3%;
+	
+}
+
+.sedans{
+	background-color: #FF7600;
+}
+
+.suvs{
+	background-color: #194350;
+}
+
+.luxury{
+	background-color: #003638;
+}
+
+.button{
+	background-color: #fff;
+	width: 70%;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 1px 2px #F8F5F1;
+	text-align: center;
+	margin: 30% 3% 13%;
+	font-size: 14px;
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+	
+}
+
+.button:hover {
+	color:#fff;
+	border: 2px solid #fff;
+	box-shadow: none;
+}
+
+.button-1{
+	color: #FF7600;
+}
+
+.button-1:hover {
+	background-color: #FF7600;
+}
+
+.button-2{
+	color:#194350;
+}
+
+.button-2:hover {
+	background-color: #194350;
+}
+
+.button-3{
+	color: #003638;
+}
+
+.button-3:hover {
+	background-color: #003638;
+}
+
+
+.attribution{
+	color: #4B6587;
+	margin: 1% 0 ;
+
+}
+
+@media only screen and (max-width: 600px) {
+	.container{
+		display: inline-block;
+	}
+	.sedans, .suvs, .luxury {
+		width: 100%;
+	}
+}
